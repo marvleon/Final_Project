@@ -32,6 +32,7 @@
     <section class="grid-container">
       <!--Content-->
       <section class="flex-container">
+        <!--About Me-->
         <div class="content-container">
           <div class="title">
             <h2>About Me</h2>
@@ -49,6 +50,7 @@
             Thanks for visiting my site!
           </p>
         </div>
+        <!--Previous courses-->
         <div class="content-container">
           <div class="title">
             <h2>Courses</h2>
@@ -56,7 +58,7 @@
           <p class="description subtitle">
             Here's a list of courses I've previously taken.
           </p>
-          <ul>
+          <ul class="course-list">
             <li>CS 202 - Programming Systems</li>
             <li>CS 251 - Discrete Structures</li>
             <li>CS 314 - Introduction to Software Engineering</li>
@@ -64,24 +66,96 @@
             <li>CS 486 - Introduction to Database Management Systems</li>
           </ul>
         </div>
+        <!--Projects-->
         <div class="content-container">
           <div class="title">
             <h2>Projects</h2>
           </div>
-          <p class="description subtitle">
+          <p class="project-description subtitle">
             Here are some projects that I've done (github).
           </p>
-          <a class="description" href="https://github.com/marvleon/ChocAn"
+          <a
+            class="project-description"
+            href="https://github.com/marvleon/ChocAn"
             >Chocoholics Anonymous</a
           >
-          <p class="description">
+          <p class="project-description">
             This was a group project for CS 314. Our small group of 3 students
-            were tasked with designing, testing, and implementing a software to
-            be used by a healthcare providersdfasdfasdf
+            was tasked with designing, testing, and implementing a software to
+            be used by a fictional healthcare provider. This was a great
+            experience to learn how to coordinate and develop code with other
+            people.
           </p>
-          <a class="description" href="https://github.com/marvleon/ChocAn"
-            >Chocoholics Anonymous</a
-          >
+          <a
+            class="project-description"
+            href="https://github.com/marvleon/Study-Tool"
+            >Study Tool
+          </a>
+          <p class="project-description">
+            This was an individually assigned program. It demostrates a
+          </p>
+        </div>
+        <!--Contact Me-->
+        <div class="form-container">
+          <div class="title">
+            <h2>Contact Me</h2>
+          </div>
+          <form class="form" action="" id="form">
+            <div class="form-element">
+              <label class="input-label" for="username">Name:</label>
+              <input
+                class="input-element"
+                type="text"
+                name="username"
+                size="25"
+                id="username"
+              />
+            </div>
+            <div class="form-element">
+              <label class="input-label" for="email">Email:</label>
+              <input
+                class="input-element"
+                type="email"
+                name="email"
+                size="25"
+                id="email"
+              />
+            </div>
+            <div class="form-element">
+              <label class="input-label" for="text">Message:</label>
+              <input
+                class="input-element-text"
+                type="text"
+                name="text"
+                size="25"
+                id="text"
+              />
+            </div>
+            <fieldset class="form-element">
+              <legend class="input-label">Is this message urgent?</legend>
+              <div>
+                <input type="radio" name="newsletter" id="yes" />
+                <label for="yes">Yes!</label>
+              </div>
+              <div>
+                <input type="radio" name="newsletter" id="no" />
+                <label for="no">Nope.</label>
+              </div>
+            </fieldset>
+            <div class="form-element">
+              <label class="input-label" for="date">Date:</label>
+              <input class="input-element" type="date" name="date" id="date" />
+            </div>
+            <div class="form-element">
+              <input class="btn btn-primary" type="submit" value="Submit" />
+              <input class="btn btn-secondary" type="reset" value="Reset" />
+            </div>
+          </form>
+        </div>
+        <div class="content-container">
+          <div class="title">
+            <h2>Today in History</h2>
+          </div>
         </div>
       </section>
     </section>
