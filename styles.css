@@ -173,3 +173,8 @@ fieldset {
 .btn-secondary:hover {
   background-color: var(--lightred);
 }
+
+.temp-gif {
+  width: 20vw;
+  text-align: center;
+}

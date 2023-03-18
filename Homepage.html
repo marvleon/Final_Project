@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marvin Leon - Welcome</title>
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="form.js"></script>
+    <script defer src="wiki.js"></script>
   </head>
   <body>
     <!--Nav-->
@@ -152,11 +154,18 @@
             </div>
           </form>
         </div>
-        <div class="content-container">
+        <section id="results" class="content-container">
           <div class="title">
             <h2>Today in History</h2>
           </div>
-        </div>
+          <img
+            id="loading"
+            class="temp-gif"
+            src="loader.gif"
+            alt="gif of a loading element"
+            width="50px"
+          />
+        </section>
       </section>
     </section>
   </body>
