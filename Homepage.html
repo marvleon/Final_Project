@@ -15,7 +15,7 @@
     <nav id="header">
       <ul class="nav-bar">
         <li class="nav-item-marv">
-          <a class="nav-link" href="#">Marvin Leon</a>
+          <a class="nav-link" href="">Marvin Leon</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
@@ -36,11 +36,11 @@
       <!--Content-->
       <section class="flex-container">
         <!--About Me-->
-        <div class="content-container">
+        <div id="about" class="content-container">
           <div class="title">
             <h2>About Me</h2>
           </div>
-          <p class="description">
+          <p class="description-bio">
             Hi! My name is Marvin Leon, I'm an undergraduate student at Portland
             State University majoring in Computer Science. I previously attended
             Concordia University. Following their closure I transferred to PSU.
@@ -49,12 +49,13 @@
             sessions for Freshman Inquiry courses. In my role, I enjoy
             connecting, advocating, supporting, and learning with students.
             During the summer, I work at a non-profit summer camp and in my free
-            time I like to use my sewing machine to repair and make garments.
-            Thanks for visiting my site!
+            time I like to use my sewing machine to repair and make garments. In
+            the future, I hope to continue my role as an educator in Computer
+            Science. Thanks for visiting my site!
           </p>
         </div>
         <!--Previous courses-->
-        <div class="content-container">
+        <div id="courses" class="content-container">
           <div class="title">
             <h2>Courses</h2>
           </div>
@@ -70,36 +71,36 @@
           </ul>
         </div>
         <!--Projects-->
-        <div class="content-container">
+        <div id="projects" class="content-container">
           <div class="title">
             <h2>Projects</h2>
           </div>
           <p class="project-description subtitle">
-            Here are some projects that I've done (github).
+            Here are some previous projects I've completed
           </p>
-          <a
-            class="project-description"
-            href="https://github.com/marvleon/ChocAn"
-            >Chocoholics Anonymous</a
-          >
           <p class="project-description">
-            This was a group project for CS 314. Our small group of 3 students
-            was tasked with designing, testing, and implementing a software to
-            be used by a fictional healthcare provider. This was a great
-            experience to learn how to coordinate and develop code with other
-            people.
+            <a href="https://github.com/marvleon/ChocAn"
+              >Chocoholics Anonymous (github)</a
+            >: This was a group project for CS 314. Our small group of 3
+            students was tasked with designing, testing, and implementing a
+            software to be used by a fictional healthcare provider. This was a
+            great experience to learn how to coordinate and develop code with
+            other people.
           </p>
-          <a
-            class="project-description"
-            href="https://github.com/marvleon/Study-Tool"
-            >Study Tool
-          </a>
+
           <p class="project-description">
-            This was an individually assigned program. It demostrates a
+            <a
+              class="project-description"
+              href="https://github.com/marvleon/Study-Tool"
+              >Study Tool (github)</a
+            >: This was an individually completed program. It demostrates a
+            graph implemented using an adjacency list composed of vertices. Each
+            vertex has a pointer to an object where notes can be recorded and a
+            pointer to an edge list.
           </p>
         </div>
         <!--Contact Me-->
-        <div class="form-container">
+        <div id="contact" class="form-container">
           <div class="title">
             <h2>Contact Me</h2>
           </div>
@@ -158,7 +159,7 @@
         <!--Fun Facts-->
         <section id="results" class="content-container">
           <div class="title">
-            <h2>Fun Facts</h2>
+            <h2>Fun Cat Facts</h2>
           </div>
           <img
             id="loading"
@@ -171,9 +172,8 @@
       </section>
       <div class="footer-text">
         <p>
-          Thank you for visiting. Fun Facts sourced from:
-          <a href="https://djtech.net/">DJtech.net</a> API to fetch the facts:
-          <a href="https://jsph.pl/">jsph.pl</a>
+          Thank you for visiting. Fun Cat Facts sourced from:
+          <a href="https://github.com/wh-iterabb-it">WhiteRabbit</a>
         </p>
       </div>
     </section>

@@ -84,6 +84,10 @@ body {
   width: 50vw;
   text-align: center;
 }
+.description-bio {
+  width: 60vw;
+  text-align: center;
+}
 
 .course-list {
   margin-left: 10%;

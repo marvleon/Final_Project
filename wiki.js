@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  const factURL = "https://uselessfacts.jsph.pl/api/v2/facts/random";
+  const factURL = "https://meowfacts.herokuapp.com/";
 
   const addToDOM = (fact) => {
     $("#results")
@@ -12,9 +12,9 @@ $(document).ready(() => {
     $.ajax({
       type: "GET",
       url: url,
-      success: (data) => {
-        console.log(data.text);
-        addToDOM(data.text);
+      success: (fact) => {
+        console.log(fact.data);
+        addToDOM(fact.data);
       },
       error: (error) => {
         console.error(error);
